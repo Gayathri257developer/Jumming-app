@@ -1,0 +1,40 @@
+.outline-footer{
+    width: auto;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;   
+}
+
+.right-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; 
+}
+.endcall{ 
+    background-color: red;
+    min-width: 7vw;
+    min-height: 5vh;
+}
+.on-off{
+    background: none;
+    color: #fff;
+}
+button{
+    padding: 10px;
+    border: 1px solid grey;
+}
+.record{
+   accent-color: red;
+   padding: 10px;
+}
