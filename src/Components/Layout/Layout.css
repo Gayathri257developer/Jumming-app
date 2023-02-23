@@ -46,8 +46,8 @@
 
 .video{
     padding: .5em;
-    width: 700px;
-    height: 260px;
+    width: 550px;
+    height: 230px;
     object-fit: cover;
     border-radius: 20px;
 }
