@@ -1,34 +1,32 @@
 import React from 'react'
-import '../Components/Layout/Layout.css';
+import './Layout.css';
+import video1 from '../assets/video-1.mp4'
+import video2 from '../assets/video-3.mp4'
 
-const UserThree = () => {
+const UserTwo = () => {
   return (
-   
-    <div className='inner-3'>
-     <div className='col'>
-     <video controls className='video2'>
-     <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" loop autoPlay/>
-     </video>
-     <h2 className='name1'>you</h2>
-     </div>
+    <div className='wrapper'>
+     <div className='inner3'>
+      <div className='user3 col-1'>
+      <video src={video1} className="video" width="400px" height="100%" loop autoPlay>
 
-     <div className='col'>
-     <video controls className='video-tag'>
-     <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4" loop autoPlay/>
-     </video>
-     <h2 className='name1'>Ellen</h2>
+      </video>
+      </div>
+      <div className='user3 user-2 col-1'>
+      <video src={video1} className="video" width="400px" height="100%" loop autoPlay>
+
+      </video>
+      </div>
+      <div className='user3 col-3'>
+      <video src={video2}  width="400px" height="100%" loop autoPlay>
+
+      </video>
+      </div>
      </div>
-   
-     <div className='col'>
-     <video controls className='video-tag'>
-     <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" loop autoPlay/>
-     </video>
-     <h2 className='name1'>John</h2>
-     </div>
+     
     </div>
   
- 
   )
 }
 
-export default UserThree
+export default UserTwo

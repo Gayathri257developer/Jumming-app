@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    padding: 10px;
+    padding: 5px;
     margin: 0;
     cursor: pointer;
     color: #fff;
@@ -17,7 +17,7 @@ body {
     background-color: rgb(40, 45, 50);
     min-height: calc(100vh - 2em);
     display: flex;
-    padding: 1em;
+    padding: .2em;
     flex-direction: column;
     justify-content: space-between;
 }

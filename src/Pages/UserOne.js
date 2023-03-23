@@ -1,21 +1,20 @@
-import React from 'react'
-import '../Components/Layout/Layout.css';
+import React from "react";
+import './Layout.css';
+import video1 from '../assets/video-1.mp4'
 
 const UserOne = () => {
   return (
-      <div className='wrapper'>
-      <div className='inner'>
-      <div className='col'>
-      <video controls className='video1'>
-      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" loop autoPlay/>
-      </video>
-      <h2 className='name1'>you</h2>
+    <div className="wrapper">
+      <div className="inner">
+        <div className="user col-1">
+        <video src={video1} width="100%" height="100%" loop autoPlay>
+       
+    </video>
+    <h2>John</h2>
+        </div>
       </div>
-      </div>
-      </div>
- 
-    
-  )
-}
+    </div>
+  );
+};
 
-export default UserOne
+export default UserOne;
